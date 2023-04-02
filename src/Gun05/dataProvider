@@ -1,0 +1,2 @@
+Eğer bir testte çok veri göndereceksek bunun için xml kodu uygun olmuyor
+çoklu parametre kullancaksak en uygunu data provider oluyor

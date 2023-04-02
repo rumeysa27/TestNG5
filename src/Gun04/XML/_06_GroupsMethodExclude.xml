@@ -1,0 +1,24 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit">
+    <test  name="Test1">
+
+        <!--  include ekleneceklerini buraya ekle// exclude çıkaracaklarını buraya   -->
+        <groups>
+            <run>
+                <exclude name="SmokeTest"> </exclude>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Gun04._03_Groups">
+              <methods>
+                  <!-- test5 metodu hariç olacak smoke testlerden
+                     gerisini çalştır-->
+                  <exclude name="test5"></exclude>
+              </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>
